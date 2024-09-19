@@ -118,17 +118,6 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
-  <data name="button4.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
-    <value>
-        iVBORw0KGgoAAAANSUhEUgAAADUAAAA1CAYAAADh5qNwAAAABGdBTUEAALGPC/xhBQAAAUxJREFUaEPt
-        mkFqwzAQRX2AQiHH8NLWxrvuCj1kj5B17+FL5BBx2vnuBGLxTWwKlb+YDw8SW9HMI44MsZq1dF333vf9
-        aFyN7wOBfkb0560+T0rpwz40PUxyZCb0663z2KBz9iEVzq6wDE5kA9VYivklxwZKsbgU7YDKb+gZ0yzk
-        qxwbIMm8KtoLLNt0gCgjpI52H/orV0ixE9KElAohpUJIqRBSKoSUCiGlQkipEFIqhJQKIaVCSKmwV+pi
-        fBUAdVk/lM1SKaXP+X/qQkF91hdjzzf16vMXCepn/ayyWapt2xefv0hQn/XFCCmfv0hCih1k2Orz5vMX
-        CeqzvhibpYwbnqkOw3D6b1AX9bN+VtkjJUNIqQCpKp/51vd0vsp9FIi9qWvHC+L3ATZICni40m/sYF27
-        yO7BiWygClzoHr8U69mZ+RhfFQX30DbND7paeRgCdCCoAAAAAElFTkSuQmCC
-</value>
-  </data>
   <data name="btnMaximize.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAAADUAAAA1CAYAAADh5qNwAAAABGdBTUEAALGPC/xhBQAABORJREFUaEPt

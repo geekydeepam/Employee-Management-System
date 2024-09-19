@@ -16,6 +16,7 @@ namespace Employee
         public Form2()
         {
             InitializeComponent();
+            loadform(new Emp());
         }
         public void loadform(object Form)
         {
@@ -31,6 +32,7 @@ namespace Employee
 
         private void button1_Click(object sender, EventArgs e)
         {
+            
            loadform(new Emp());
         }
 
@@ -46,7 +48,7 @@ namespace Employee
 
         private void mainpanel_Paint(object sender, PaintEventArgs e)
         {
-
+            
         }
 
         private void button4_Click(object sender, EventArgs e)
@@ -79,11 +81,13 @@ namespace Employee
 
         private void button4_Click_1(object sender, EventArgs e)
         {
-            if(WindowState == FormWindowState.Normal)
-            {
-                WindowState = FormWindowState.Minimized;
-            }
             
+            
+        }
+
+        private void button6_Click(object sender, EventArgs e)
+        {
+            loadform(new Emptb());
         }
     }
 }

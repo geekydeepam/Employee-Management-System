@@ -43,9 +43,10 @@
             // designlabel
             // 
             this.designlabel.AutoSize = true;
-            this.designlabel.Location = new System.Drawing.Point(290, 21);
+            this.designlabel.Location = new System.Drawing.Point(193, 14);
+            this.designlabel.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.designlabel.Name = "designlabel";
-            this.designlabel.Size = new System.Drawing.Size(137, 20);
+            this.designlabel.Size = new System.Drawing.Size(93, 13);
             this.designlabel.TabIndex = 0;
             this.designlabel.Text = "Designation Table";
             // 
@@ -53,9 +54,10 @@
             // 
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.Location = new System.Drawing.Point(27, 199);
+            this.label2.Location = new System.Drawing.Point(18, 129);
+            this.label2.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(127, 22);
+            this.label2.Size = new System.Drawing.Size(88, 15);
             this.label2.TabIndex = 1;
             this.label2.Text = "Designation ID";
             // 
@@ -63,43 +65,50 @@
             // 
             this.label3.AutoSize = true;
             this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label3.Location = new System.Drawing.Point(27, 247);
+            this.label3.Location = new System.Drawing.Point(18, 161);
+            this.label3.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(157, 22);
+            this.label3.Size = new System.Drawing.Size(110, 15);
             this.label3.TabIndex = 1;
             this.label3.Text = "Designation Name";
             // 
             // DesigNamebox
             // 
-            this.DesigNamebox.Location = new System.Drawing.Point(189, 241);
+            this.DesigNamebox.Location = new System.Drawing.Point(126, 157);
+            this.DesigNamebox.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.DesigNamebox.Name = "DesigNamebox";
-            this.DesigNamebox.Size = new System.Drawing.Size(204, 26);
+            this.DesigNamebox.Size = new System.Drawing.Size(137, 20);
             this.DesigNamebox.TabIndex = 1;
             // 
             // dgvdesign
             // 
+            this.dgvdesign.BackgroundColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.dgvdesign.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.dgvdesign.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dgvdesign.Location = new System.Drawing.Point(0, 385);
+            this.dgvdesign.Location = new System.Drawing.Point(0, 250);
+            this.dgvdesign.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.dgvdesign.Name = "dgvdesign";
             this.dgvdesign.RowHeadersWidth = 62;
             this.dgvdesign.RowTemplate.Height = 28;
-            this.dgvdesign.Size = new System.Drawing.Size(600, 665);
+            this.dgvdesign.Size = new System.Drawing.Size(400, 432);
             this.dgvdesign.TabIndex = 3;
             // 
             // DesigIDBox
             // 
-            this.DesigIDBox.Location = new System.Drawing.Point(189, 199);
+            this.DesigIDBox.Location = new System.Drawing.Point(126, 129);
+            this.DesigIDBox.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.DesigIDBox.Name = "DesigIDBox";
-            this.DesigIDBox.Size = new System.Drawing.Size(163, 26);
+            this.DesigIDBox.Size = new System.Drawing.Size(110, 20);
             this.DesigIDBox.TabIndex = 0;
             this.DesigIDBox.KeyDown += new System.Windows.Forms.KeyEventHandler(this.DesigIDBox_KeyDown);
             // 
             // btnSave
             // 
             this.btnSave.BackColor = System.Drawing.SystemColors.ActiveCaption;
-            this.btnSave.Location = new System.Drawing.Point(525, 237);
+            this.btnSave.Location = new System.Drawing.Point(41, 206);
+            this.btnSave.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.btnSave.Name = "btnSave";
-            this.btnSave.Size = new System.Drawing.Size(75, 34);
+            this.btnSave.Size = new System.Drawing.Size(50, 22);
             this.btnSave.TabIndex = 4;
             this.btnSave.Text = "Save";
             this.btnSave.UseVisualStyleBackColor = false;
@@ -108,9 +117,10 @@
             // btnUpdate
             // 
             this.btnUpdate.BackColor = System.Drawing.SystemColors.ActiveCaption;
-            this.btnUpdate.Location = new System.Drawing.Point(606, 237);
+            this.btnUpdate.Location = new System.Drawing.Point(126, 206);
+            this.btnUpdate.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.btnUpdate.Name = "btnUpdate";
-            this.btnUpdate.Size = new System.Drawing.Size(75, 34);
+            this.btnUpdate.Size = new System.Drawing.Size(50, 22);
             this.btnUpdate.TabIndex = 5;
             this.btnUpdate.Text = "Update";
             this.btnUpdate.UseVisualStyleBackColor = false;
@@ -119,9 +129,10 @@
             // btnDelete
             // 
             this.btnDelete.BackColor = System.Drawing.SystemColors.ActiveCaption;
-            this.btnDelete.Location = new System.Drawing.Point(687, 237);
+            this.btnDelete.Location = new System.Drawing.Point(236, 206);
+            this.btnDelete.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.btnDelete.Name = "btnDelete";
-            this.btnDelete.Size = new System.Drawing.Size(75, 34);
+            this.btnDelete.Size = new System.Drawing.Size(50, 22);
             this.btnDelete.TabIndex = 6;
             this.btnDelete.Text = "Delete";
             this.btnDelete.UseVisualStyleBackColor = false;
@@ -129,10 +140,10 @@
             // 
             // Desig
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.ClientSize = new System.Drawing.Size(1677, 1050);
+            this.ClientSize = new System.Drawing.Size(1118, 682);
             this.ControlBox = false;
             this.Controls.Add(this.btnDelete);
             this.Controls.Add(this.btnUpdate);
@@ -143,7 +154,8 @@
             this.Controls.Add(this.label3);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.designlabel);
-            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
+            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.Name = "Desig";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.WindowState = System.Windows.Forms.FormWindowState.Maximized;

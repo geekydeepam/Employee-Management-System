@@ -25,7 +25,7 @@ namespace Employee
         string mobileno;
         string DOJ;
         string status;
-        int DesignationId;
+        int    DesignationId;
         double salary;
 
         SqlHelper sqlHelper=new SqlHelper();
@@ -148,7 +148,7 @@ namespace Employee
             try
             {
                 sqlHelper.ExecSqlQuery($"exec insertEmployee '{Fname}','{Mname}','{Lname}','{Gender}','{Address}',{mobileno},'{DOJ}',{DesignationId},'{status}',{salary}");
-
+                MessageBox.Show("Saved");
             }
             catch (Exception ex)
             {
@@ -158,7 +158,7 @@ namespace Employee
             finally
             {
 
-                MessageBox.Show("Saved");
+                
                 loadEmpdata();
             }
 
@@ -255,7 +255,8 @@ namespace Employee
 
             try
             {
-                sqlHelper.ExecSqlQuery($"exec deleteEmployeeByEmpID {IDbox.Text}");  
+                sqlHelper.ExecSqlQuery($"exec deleteEmployeeByEmpID {IDbox.Text}");
+                MessageBox.Show("Deleted Succesfully");
             }
             catch (Exception ex)
             {
@@ -264,7 +265,7 @@ namespace Employee
             finally
             {
                 
-                MessageBox.Show("Deleted Succesfully");
+                
                 //LoadEmployeeData();
                 loadEmpdata();
             }
@@ -303,6 +304,7 @@ namespace Employee
             {
                 sqlHelper.ExecSqlQuery($"exec updateEmployee '{Fname}','{Mname}','{Lname}','{Gender}','{Address}',{mobileno},'{DOJ}',{DesignationId},'{status}',{salary},{Convert.ToInt32(IDbox.Text)}");
 
+                MessageBox.Show("Saved");
             }
             catch (Exception ex)
             {
@@ -312,7 +314,6 @@ namespace Employee
             finally
             {
 
-                MessageBox.Show("Saved");
                 //LoadEmployeeData();
                 loadEmpdata();
             }
@@ -609,6 +610,16 @@ namespace Employee
             StatusCombo.Text = "Select";
             JoiningPicker.Value = DateTime.Now;
             SalaryBox.Clear();
+        }
+
+        private void n_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void panel1_Paint(object sender, PaintEventArgs e)
+        {
+
         }
     }
 }
